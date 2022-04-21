@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="https://pbs.twimg.com/profile_images/993674618652254208/dYmlscab_400x400.jpg">
+
     <title>TSBASICO</title>
 </head>
 
@@ -23,10 +26,20 @@
                 </table>
             </div>
         </div>
-        
+        <form class="m-3">
+            <div class="form-row">
+                <div class="col">
+                    <input type="text" class="form-control" id="search-box" placeholder="Filtrar por nombre">
+                </div>
+                <div class="col">
+                    <button type="button" id="button-filterByName" class="btn btn-success">Aplicar</button>
+                </div>
+            </div>
+        </form>
+
         <table class="table table-sm">
-            <thead>
-                <tr>
+            <thead class="thead-white">
+                <tr id="chak">
                     <th scope="col">#</th>
                     <th scope="col">Name</th>
                     <th scope="col">Channel</th>
@@ -34,8 +47,10 @@
                 </tr>
             </thead>
 
+
             <tbody id="series">
             </tbody>
+
 
         </table>
         <div class="row justify-content-end">
@@ -45,8 +60,8 @@
 
     </div>
 
-    <script type="module" src="./scripts/serie.js" ></script>
-    <script type="module" src="./scripts/data.js" ></script>
+    <script type="module" src="./scripts/serie.js"></script>
+    <script type="module" src="./scripts/data.js"></script>
     <script type="module" src="./scripts/main.js"></script>
 
 </body>
