@@ -1,5 +1,5 @@
 import { series } from './data.js';
-var coursesTbody = document.getElementById('courses');
+var coursesTbody = document.getElementById('series');
 var btnfilterByName = document.getElementById("button-filterByName");
 var inputSearchBox = document.getElementById("search-box");
 var totalCreditElm = document.getElementById("total-credits");

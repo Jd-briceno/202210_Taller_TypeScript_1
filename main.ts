@@ -2,7 +2,7 @@ import { Serie } from './serie';
 
 import { series } from './data.js';
 
-let coursesTbody: HTMLElement = document.getElementById('courses')!;
+let coursesTbody: HTMLElement = document.getElementById('series')!;
 const btnfilterByName: HTMLElement = document.getElementById("button-filterByName")!;
 const inputSearchBox: HTMLInputElement = <HTMLInputElement> document.getElementById("search-box")!;
 const totalCreditElm: HTMLElement = document.getElementById("total-credits")!;
